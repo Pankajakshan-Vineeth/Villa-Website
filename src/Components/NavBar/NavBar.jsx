@@ -8,8 +8,11 @@ import twitter from "../../assets/twitter.png";
 import linkedin from "../../assets/linkedin.png";
 import instagram from "../../assets/instagram.png";
 import villa from "./../../assets/villa.png";
+import { AppContext } from '../../Context/AppContext'
 
 const NavBar = () => {
+    const { images,presentIndex, setPresentIndex, goToBackSlide, goToNextSlide } = useContext(AppContext);
+
   return (
     <div className="navbar-container">
       <div className="address-div">
