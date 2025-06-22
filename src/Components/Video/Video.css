@@ -4,7 +4,6 @@
     background: url('../../assets/video-bg.jpg');
     display:flex ;
     flex-direction: column;
-    
 }
 
 .video-text{
@@ -56,21 +55,37 @@
     margin-left: 120px;
 }
 .orange-icon{
-   width: 70px;
+   width: 60px;
     position: absolute;
-    top: 0;         
+    top: 0;
     right: 0;
-    left: 190px;
+    transform: translate(50%, -50%);
 }
 .dot-container{
     padding: 15px;
-    background-color: rgb(247, 211, 187);
+    background-color: rgb(255, 235, 221);
     margin-top: 100px;
-    margin-bottom: 100px;
-    width:15%;
-    height: 10vh;
+    margin-bottom: 200px;
+    width:20%;
+    height: 12vh;
     position: relative;
+    border-radius: 10px;
 }
 .orange-text{
     display: flex;
+    width: 90%;
+    margin-bottom: 150px;
+}
+.orange-text h1{
+    width: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: rgb(194, 93, 21);
+}
+
+.orange-text p{
+    margin-left: 30px;
+    padding: 10px;
+font-size: 15px;
+font-weight: 700;
 }
