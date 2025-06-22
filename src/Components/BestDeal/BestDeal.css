@@ -10,11 +10,11 @@
 }
 
 .deal-text-container{
-    margin-left: 120px;
-    margin-right:190px ;
+    margin-left: 100px;
+    margin-right:220px ;
 }
 .deal-button-container{
-gap: 20px;
+gap: 30px;
 bottom: 0;
 top:0;
 }
@@ -35,7 +35,68 @@ top:0;
 .property-button.active{
     background-color: #f35421; 
   color: white;
+  padding: 15px 40px;
 }
 .deal-text-container h1{
     font-size: 43px;
+}
+
+.extra-info-container{
+margin-bottom: 150px;
+
+}
+
+.details-container{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+.card{
+    display: flex;
+    padding:  0px 30px;
+    margin-left: 100px;
+    gap: 30px;
+    margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+.small-text p{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.measurement h2{
+    margin-bottom: 37px;
+        margin-top: 30px;
+          text-align: right;
+}
+.image-containerr{
+    margin-left: 60px;
+}
+.sofa-image{
+     width: 550px;
+  height: auto;
+}
+.extra-info{
+    width: 20%;
+    padding: 0px 20px;
+    margin-left: 60px;
+}
+.extra-info p{
+    margin-bottom: 40px;
+}
+.extra-info button{
+  background-color: #1a1a1a; 
+  color:white;
+  border: none;
+  border-radius: 999px;
+  padding: 15px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.extra-info button:hover{
+     color: #ff5333;
+}
+.extra-info h3{
+    margin-bottom: 35px;
 }
