@@ -3,10 +3,12 @@ import "./Video.css";
 import frame from "../../assets/video-frame.jpg";
 import play from "../../assets/play.png";
 import orangedot from "../../assets/orange.png";
+import videobg from "../../assets/video-bg.jpg";
 
 const Video = () => {
   return (
     <div className="video-container">
+      <img src={videobg} alt="" />
       <div className="video-text">
         <p>| VIDEO VIEW</p>
         <h1 className="h1-text">Get Closer View & Different Feeling</h1>
