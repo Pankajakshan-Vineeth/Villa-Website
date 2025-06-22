@@ -4,6 +4,7 @@ import NavBar from "../Components/NavBar/NavBar";
 import Featured from "../Components/Featured/Featured";
 import Video from "../Components/Video/Video";
 import BestDeal from "../Components/BestDeal/BestDeal";
+import Properties from "../Components/Properties/Properties";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Featured/>
       <Video/>
       <BestDeal/>
+      <Properties/>
     </div>
   );
 };
