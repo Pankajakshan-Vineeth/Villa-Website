@@ -3,7 +3,6 @@
     height: auto;
     display:flex ;
     flex-direction: column;
-    margin-bottom: 100px;
 }
 .touch-text{
      display: flex;
@@ -94,7 +93,7 @@
   cursor: pointer;
   align-self: flex-start;
   transition: background 0.3s;
-  margin-top: 18px;
+  margin-top: 30px;
 }
 
 .contact-form button:hover {
@@ -140,4 +139,15 @@
 }
 .contact-no p{
     color: gray;
+}
+
+.footer{
+    background-color: #111;
+    color: aliceblue;
+    margin-top: 150px;
+    padding:  30px;
+}
+.footer p{
+    margin-left: 250px;
+    font-size: 17px;
 }

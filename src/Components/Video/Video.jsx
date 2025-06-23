@@ -15,7 +15,9 @@ const Video = () => {
       </div>
       <div className="second-image">
         <img src={frame} alt="" className="frame-image" />
-        <img src={play} alt="" className="play-icon" />
+        <a href="https://www.youtube.com/" target="_blank" className="play-icon">
+          <img src={play} alt="" className="play-icon" />
+        </a>
       </div>
       <div className="orange-dots">
         <div className="dot-container">

@@ -65,12 +65,15 @@ const Contact = () => {
         </div>
         <div className="email-icon-container">
           <img src={emailicon} alt="" className="picon" />
-          <div className="contact-no" >
+          <div className="contact-no">
             <h3>info@villa.co</h3>
             <p>Business Email</p>
           </div>
         </div>
       </div>
+      <footer class="footer">
+        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design: TemplateMo</p>
+      </footer>
     </div>
   );
 };

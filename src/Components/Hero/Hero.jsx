@@ -37,9 +37,9 @@ const Hero = () => {
         {presentIndex === 0 &&<button className="text-button"><span className="city">Toronto, </span><span className="country">Canada</span> </button>}
         {presentIndex === 1 &&<button className="text-button"><span className="city">Melibourne, </span><span className="country">Australia</span></button>}
         {presentIndex === 2 &&<button className="text-button"><span className="city">Miami, </span><span className="country">South Florida</span></button>}
-        {presentIndex === 0 && <h1>HURRY! <br /> GET THE <br /> BEST VILLA <br /> FOR YOU</h1>} 
-        {presentIndex === 1 && <h1>BE QUICK ! <br /> GET THE <br />BEST VILLA <br /> IN TOWN</h1>}
-        {presentIndex === 2 && <h1>ACT NOW! <br />GET THE <br/> HIGHEST <br />LEVEL <br />PENTHOUSE</h1>}
+        {presentIndex === 0 && <h1>HURRY! <br /> GET THE BEST <br /> VILLA  FOR YOU</h1>} 
+        {presentIndex === 1 && <h1>BE QUICK ! <br /> GET THE BEST <br /> VILLA IN TOWN</h1>}
+        {presentIndex === 2 && <h1>ACT NOW! <br />GET THE <br/> HIGHEST LEVEL <br />PENTHOUSE</h1>}
       </div>
 
       <div className="dots">

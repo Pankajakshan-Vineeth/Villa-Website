@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./NavBar.css";
 import Button from "@mui/material/Button";
 import mail from "../../assets/email-icon.png";
@@ -7,9 +7,24 @@ import facebook from "../../assets/facebook.png";
 import twitter from "../../assets/twitter.png";
 import linkedin from "../../assets/linkedin.png";
 import instagram from "../../assets/instagram.png";
-import villa from "./../../assets/villa.png";
+import villa from "../../assets/villa.png";
 
 const NavBar = () => {
+  const [stick, setStick] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      if (scrollY > 0) {
+        setStick(true);
+      } else {
+        setStick(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="navbar-container">
@@ -21,15 +36,16 @@ const NavBar = () => {
           <p>Sunny Isles Beach, FL 33160</p>
         </div>
         <div className="icon-container">
-          <img src={facebook} alt="" className="icon1" />
-          <img src={twitter} alt="" className="icon1" />
-          <img src={linkedin} alt="" className="icon1" />
-          <img src={instagram} alt="" className="icon1" />
+          <a href="https://www.facebook.com/" target="_blank"><img src={facebook} alt="" className="icon1" /></a>
+          <a href="https://www.linkedin.com/" target="_blank"><img src={linkedin} alt="" className="icon1" /></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src={instagram} alt="" className="icon1" /></a>
+          <a href="https://x.com/?lang=en" target="_blank"><img src={twitter} alt="" className="icon1" /></a>
         </div>
       </div>
-      <div className="menu-div">
+
+      <div className={`menu-div ${stick ? "scrolled" : ""}`}>
         <div className="logo">
-          <img src={villa} alt="" />
+          <img src={villa} alt="Logo" />
         </div>
         <div className="menu-items">
           <p>Home</p>
@@ -43,7 +59,7 @@ const NavBar = () => {
             variant="contained"
             disableElevation
           >
-            Disable elevation
+            Schedule Visit
           </Button>
         </div>
       </div>

@@ -1,6 +1,7 @@
 .navbar-container{
     width: 100%;
     align-items: center;
+
 }
 
 .address-div{
@@ -19,7 +20,7 @@
     width: 20px;
     height:16px;
     margin-right: 10px;
-          cursor: pointer;     
+    cursor: pointer;     
 
 }
 
@@ -50,12 +51,16 @@
     
 }
 
-.menu-div{
-     display: flex;
-    align-items: center;
-    justify-content: space-between;
-        margin-top: 30px;
-        margin-right: 50px;
+.menu-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px; /* Avoid margin for sticky */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 .logo img{
