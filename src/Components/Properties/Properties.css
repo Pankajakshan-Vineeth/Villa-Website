@@ -1,0 +1,87 @@
+.card-container{
+    width: 80%;
+    margin-left: 160px;
+    margin-bottom: 150px;
+}
+.property-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+    
+}
+.property-text h3{
+    color: orangered;
+
+}
+.property-text h1{
+    margin-left: 80px;
+    font-size: 43px;
+    width: 30%;
+    padding: 5px;
+    display: flex;
+  text-align: center;
+}
+.cards{
+   display: flex;
+   flex-direction: column;
+   padding:  0px 20px;
+   /* margin-left: 100px; */
+   gap: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(141, 135, 135, 0.3);
+    /* background-color: blueviolet; */
+        border-radius: 10px;
+}
+.property-image{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card-container{
+display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px;
+}
+
+.property-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.address{
+    /* background-color: chartreuse; */
+    margin-bottom: 10px;
+}
+.info{
+    margin-bottom: 30px;
+}
+.bathroom{
+    margin-left: 20px;
+}
+.visit-btn{
+    margin-bottom: 40px;
+}
+.badge{
+    padding:  5px 10px;
+    background-color: rgb(253, 176, 148);
+    border-radius: 5px;
+}
+.price{
+    font-size: 24px;
+    font-weight:1000;
+    color: rgb(245, 120, 18);
+}
+.visit-btn{
+ background-color: #1a1a1a; 
+ width: 50%;
+  color:white;
+  border: none;
+  border-radius: 999px;
+  padding: 13px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 80px;
+}
