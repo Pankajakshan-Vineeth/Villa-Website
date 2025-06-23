@@ -1,0 +1,143 @@
+.contact-container{
+    width: 100%;
+    height: auto;
+    display:flex ;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.touch-text{
+     display: flex;
+     flex-direction:column ;
+     align-items: center;
+     justify-content: center;
+     margin-top: 90px;
+    position: absolute;
+     margin-left: 350px;
+
+}
+.touch-text p{
+  font-size: 17px;
+  color: orangered;
+  font-weight: bold;
+    margin-left: 120px;
+
+
+}
+.h1-text{
+    margin-left: 220px;
+    width: 450px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 0;
+}
+.map-container {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      position: absolute;
+      left: 10%;
+  margin-top: 380px;
+
+}
+.contact-form {
+  width: 25%;
+  padding: 40px;
+  padding-right: 70px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  position: absolute;
+  left: 59%;
+  margin-top: 380px;
+}
+
+.contact-form label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #f5f5f5;
+  font-size: 1rem;
+  resize: none;
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.contact-form button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #111;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.3s;
+  margin-top: 18px;
+}
+
+.contact-form button:hover {
+  background-color: #b84e4e;
+}
+.contact-info-container{
+    display: flex;
+    margin-top: 400px;
+    width:48%;
+    margin-left: 8%;
+    gap: 60px;
+    
+}
+.phone-icon-container{
+    display: flex;
+    padding: 10px 15px;
+    margin-left: 20px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+
+}
+.email-icon-container{
+    display: flex;
+    padding: 10px 15px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+
+
+}
+.picon{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+         margin-left: 20px;
+}
+.contact-no {
+    margin-left: 20px;
+}
+.contact-no p{
+    color: gray;
+}

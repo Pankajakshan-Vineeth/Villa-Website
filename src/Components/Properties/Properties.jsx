@@ -5,6 +5,7 @@ import property04 from "../../assets/property-04.jpg";
 import property05 from "../../assets/property-05.jpg";
 import property06 from "../../assets/property-06.jpg";
 import "./Properties.css";
+ 
 const Properties = () => {
   return (
     <div className="property-container">

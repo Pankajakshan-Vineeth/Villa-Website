@@ -27,12 +27,10 @@
    display: flex;
    flex-direction: column;
    padding:  0px 20px;
-   /* margin-left: 100px; */
    gap: 10px;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(141, 135, 135, 0.3);
-    /* background-color: blueviolet; */
-        border-radius: 10px;
+    border-radius: 10px;
 }
 .property-image{
     width: 100%;
@@ -52,7 +50,6 @@ display: grid;
     justify-content: space-between;
 }
 .address{
-    /* background-color: chartreuse; */
     margin-bottom: 10px;
 }
 .info{
